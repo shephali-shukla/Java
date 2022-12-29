@@ -19,12 +19,12 @@ public class AddingOrUpdating {
         print(array);
         array[2] = 99; //this overwrites the element on index 2.
 
-        //Here: prints capacity of array.
+        //prints capacity of array.
         System.out.println(array.length);
         //prints element on the last index of the array.
         System.out.println(array[array.length - 1]);
 
-        //Here: Hardcoding 
+        //Hardcoding 
         int[] array2 = {1,5,6,88,12};
         print(array2);
     }
