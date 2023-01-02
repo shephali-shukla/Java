@@ -23,5 +23,8 @@ public class Basic{
         
         int[] arr = {5,4,3,2,1};
         String[] str = {"Hello", "World"};
+
+        System.out.println(arr);
+        System.out.println(str);
     }
 }
