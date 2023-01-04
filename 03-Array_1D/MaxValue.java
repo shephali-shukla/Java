@@ -1,7 +1,7 @@
 //To find maximum element in the array.
 //This is a brute approach with Time Complexity: O(n) & Space Complexity: O(1)
 public class MaxValue {
-    
+ 
     public int maxValue(int[] num){
         //edge case:
         if(num.length == 0 || num == null){
