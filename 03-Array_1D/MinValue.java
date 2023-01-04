@@ -1,7 +1,7 @@
 //Program to find minimum value in the array.
 /*Note: Time Complexity- O(n) & Space Complexity- O(1) */
 public class MinValue {
-    
+
     public int minElement(int[] arr){
 
         //edge case
