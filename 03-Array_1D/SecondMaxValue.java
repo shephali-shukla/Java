@@ -1,11 +1,13 @@
 //Program to find second max value in an array.
-//Note: Time Complexity- O(n) & Space Complexity- O(1)
+//Note: Time Complexity- O(n){Single pass solution} & Space Complexity- O(1)
 
 /*Another Approach can be to sort the Array & return the value at 1st index */
 
 public class SecondMaxValue {
     
     public int secondMaxValue(int[] arr){
+
+        if(arr.length < 2) return -1;
         
         int max = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
